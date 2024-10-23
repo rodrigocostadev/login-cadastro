@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header id="header" >
+        <h1> Esta é a página Cadastro.html</h1>
+        <button id="logout">Sair</button>
+    </header>
+
+    <main>
+        <form id="cadastroForm" >
+            <div>
+                <label for="name" >Nome</label>
+                <input type="text" id="name" >
+            </div>            
+            <div>
+                <label  for="age" >Idade</label>
+                <input type="text" id="age" >
+            </div>            
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" >
+            </div>            
+            <div>
+                <label  for="password" >Senha</label>
+                <input type="text" id="password" >   
+            </div>                     
+            <button type="submit" id="cadastro" >Criar Cadastro</button>
+        </form>
+
+        <p id="message" ></p>
+    </main>
+
+    <p id="message" ></p>    
+    
+    <script src="cadastro.js" type="module" ></script>
+</body>
+</html>
