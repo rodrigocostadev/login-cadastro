@@ -8,7 +8,7 @@ const buttonLogout = document.getElementById("logout")
 buttonLogout.addEventListener("click", function(event){
     event.preventDefault()
     // window.location.href = "../index.html"
-    window.location.href = "https://rodrigocostadev.github.io/index.html"
+    window.location.href = "https://rodrigocostadev.github.io/login-cadastro/index.html"
 })
 
 ///////////////////////////////// BOTAO CADASTRO //////////////////////////////////////

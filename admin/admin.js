@@ -55,7 +55,7 @@ const buttonLogout = document.getElementById("logout")
 buttonLogout.addEventListener("click", function(event){
     event.preventDefault()
     // window.location.href = "../index.html"
-    window.location.href = "https://rodrigocostadev.github.io/index.html"
+    window.location.href = "https://rodrigocostadev.github.io/login-cadastro/index.html"
     
 })
 
@@ -67,7 +67,7 @@ const api = document.getElementById("api")
 api.addEventListener("click", function(event){
     event.preventDefault()
     // window.location.href = "/api/api.html"
-    window.location.href = "https://rodrigocostadev.github.io/api/api.html"
+    window.location.href = "https://rodrigocostadev.github.io/login-cadastro/api/api.html"
 })
 
 ///////////////////////////////// BOTAO LIMPAR BANCO DE DADOS //////////////////////////////////////
