@@ -71,7 +71,7 @@ loginform.addEventListener("submit", function(event){
     
     if(username.value == "admin" && password.value == "123"){
         // window.location.href = "home.html"
-        window.location.href = "/admin/admin.html"
+        window.location.href = "https://rodrigocostadev.github.io/admin/admin.html"
     }else if(username.value == userForm && password.value == passwordForm){
         window.location.href = "https://rodrigocostadev.github.io/home/home.html"
     }else{
