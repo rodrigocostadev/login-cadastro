@@ -1,4 +1,3 @@
-// import { getObjectJson } from "../cadastro/cadastro.js"
 
 ///////////////////////////////// BOTAO VOLTAR //////////////////////////////////////
 
@@ -6,7 +5,8 @@ const buttonBack = document.getElementById("back")
 
 buttonBack.addEventListener("click", function(event){
     event.preventDefault()
-    window.location.href = "../admin/admin.html"
+    // window.location.href = "../admin/admin.html"
+    window.location.href = "https://rodrigocostadev.github.io/admin/admin.html"
 })
 
 ///////////////////////////////// BOTAO SAIR //////////////////////////////////////
@@ -16,7 +16,8 @@ const ul = document.getElementById("list")
 
 buttonLogout.addEventListener("click", function(event){
     event.preventDefault()
-    window.location.href = "../index.html"
+    // window.location.href = "../index.html"
+    window.location.href = "https://rodrigocostadev.github.io/index.html"
 })
 
 ///////////////////////////////// TESTE //////////////////////////////////////

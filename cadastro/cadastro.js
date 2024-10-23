@@ -7,7 +7,8 @@ const buttonLogout = document.getElementById("logout")
 
 buttonLogout.addEventListener("click", function(event){
     event.preventDefault()
-    window.location.href = "../index.html"
+    // window.location.href = "../index.html"
+    window.location.href = "https://rodrigocostadev.github.io/index.html"
 })
 
 ///////////////////////////////// BOTAO CADASTRO //////////////////////////////////////
@@ -60,11 +61,6 @@ btnCadastro.addEventListener("click", function(event){
 
     }
 })
-
-// export function getObjectJson(){
-//     // return objectsJson
-//     // return console.log (objectsJson)
-// }
 
 
         // TESTE DE ENVIO PARA BACK END QUE FALHOU

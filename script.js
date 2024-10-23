@@ -74,7 +74,8 @@ loginform.addEventListener("submit", function(event){
         // window.location.href = "/admin/admin.html"
         window.location.href = "https://rodrigocostadev.github.io/login-cadastro/admin/admin.html"
     }else if(username.value == userForm && password.value == passwordForm){
-        window.location.href = "home/home.html"
+        // window.location.href = "home/home.html"
+        window.location.href = "https://rodrigocostadev.github.io/home/home.html"
     }else{
         message.innerHTML = '((( Login ou Senha Incorreto )))'
     }
@@ -91,7 +92,8 @@ loginform.addEventListener("submit", function(event){
 
 btnCadastro.addEventListener("click",function(event){
     event.preventDefault(
-    window.location.href = "/cadastro/cadastro.html"
+    // window.location.href = "/cadastro/cadastro.html"
+    window.location.href = "https://rodrigocostadev.github.io/cadastro/cadastro.html"
     )
 })
 
