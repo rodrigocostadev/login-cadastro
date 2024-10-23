@@ -73,7 +73,7 @@ loginform.addEventListener("submit", function(event){
         // window.location.href = "home.html"
         window.location.href = "/admin/admin.html"
     }else if(username.value == userForm && password.value == passwordForm){
-        window.location.href = "/home/home.html"
+        window.location.href = "https://rodrigocostadev.github.io/home/home.html"
     }else{
         message.innerHTML = '((( Login ou Senha Incorreto )))'
     }
