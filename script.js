@@ -70,14 +70,16 @@ loginform.addEventListener("submit", function(event){
     // const password = document.getElementById("password").value 
     
     if(username.value == "admin" && password.value == "123"){
-        // window.location.href = "home.html"
         // window.location.href = "/admin/admin.html"
         window.location.href = "https://rodrigocostadev.github.io/login-cadastro/admin/admin.html"
     }else if(username.value == userForm && password.value == passwordForm){
         // window.location.href = "home/home.html"
         window.location.href = "https://rodrigocostadev.github.io/login-cadastro/home/home.html"
     }else{
-        message.innerHTML = '((( Login ou Senha Incorreto )))'
+        message.innerHTML = '((( Login ou Senha Incorretos )))'
+        setTimeout(() => {
+            message.innerHTML = ""
+        }, 2000);
     }
 
     // if(username == "admin" && password == "123"){

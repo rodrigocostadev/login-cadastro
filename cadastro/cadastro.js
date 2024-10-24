@@ -57,7 +57,10 @@ btnCadastro.addEventListener("click", function(event){
         inputAge.value= ""
         inputEmail.value= ""
         inputPassword.value= ""
-        message.innerHTML = "Cadastro Concluído"
+        message.innerHTML = "Cadastro Concluído com Sucesso"
+        setTimeout(() => {
+            message.innerHTML = ""
+        }, 2000);
 
     }
 })
